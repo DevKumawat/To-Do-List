@@ -140,6 +140,7 @@ border-radius: 0%;
 height: 100%;
 }
 .top-part{
+    padding: 30px;
 border-radius: 0;
 }
 .blue-text{
@@ -149,7 +150,8 @@ font-size: 30px;
 font-size: 24px;
 }
 .task{
-font-size: 22px;
+    padding-top: 8px;
+font-size: 25px;
 }
 .morning-text{
 font-size: 25px;
@@ -165,20 +167,30 @@ bottom: 32px;
 }
 
 @media only screen and (max-width: 375px){
-.blue-text,
-.morning-text,
-.comments{
-font-size: 22px; 
+.blue-text
+{
+font-size:30px; 
+}
+.morning-text{
+    font-size: 22px;
 }
 .month,
-.task,
 .time
 {
 font-size: 18px;
 }
-.time{
-margin: 0 10px;
+.task{
+    font-size: 20px;
+    padding-top: 12px;
 }
+.time{
+margin: 0 20px;
+}
+.comments{
+    font-size: 20px;
+    margin: 0 0 0 10px;
+}
+
 input[type=checkbox]{
 width: 20px;
 height: 20px;
@@ -187,10 +199,26 @@ height: 20px;
 margin: 0 0 0 4px;
 }
 .data{
-padding: 0 20px;
+padding: 0 18px;
 }
 .data-row{
-padding: 30px 20px;
+padding: 45px 30px;
 }
+.top-part{
+    padding: 20px;
+}
+
+}
+@media only screen and (max-width: 400px){
+    .top-part{
+        padding: 20px;
+    }
+    .details{
+        margin: 0 0 0 20px;
+        }
+        .data{
+            padding: 0 33px;
+            }
+
 
 }
