@@ -49,12 +49,7 @@ color: rgb(168, 166, 166);
 font-size: 25px;
 color: rgb(169, 166, 166);
 }
-.data{
-display: flex;
-align-items: center;
-padding: 0 40px ;
-border-bottom: 1px solid rgb(212, 207, 207);
-}
+
 .list{
 position: relative;
 bottom: 20px;
@@ -120,6 +115,10 @@ font-size: 25px;
 }
 .last-child{
 border-left: 9px solid rgba(0, 0, 255, 0.436);
+}
+.del {
+    text-decoration: line-through;
+    opacity: 0.5;
 }
 @media only screen and (max-width: 768px){
 .container{
